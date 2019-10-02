@@ -1,9 +1,8 @@
-/*--------- CUSTOM LAYOUT ---------*/
+
 
 @import url("normalize.css");
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
-/*------*/
 
 body {
 	background-color: #2D3E52;
@@ -37,7 +36,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* //////////// HOME //////////// */
 
 header {
 	max-width: 970px;
@@ -138,8 +136,6 @@ header .logo span:last-child {
 	margin: 10px 0;
 }
 
-/* //////////// INNER //////////// */
-
 h1 {
 	color: #fff;
 	position: relative;
@@ -191,7 +187,6 @@ h1 {
 	color: #2D3E52;
 }
 
-/*--------- COLORES --------*/
 
 .color1 {
 	background-color: #EC493C;
@@ -208,8 +203,6 @@ h1 {
 .color4 {
 	background-color: #9C54B8;
 }
-
-/*////////// RESPONSIVE ////////////*/
 
 @media only screen and (max-width: 480px) {
 	.competencias .competencia {

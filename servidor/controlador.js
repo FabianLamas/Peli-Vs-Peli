@@ -190,7 +190,6 @@ function crearNuevaCompetenica(params, res){
   });
 
   var query = 'INSERT INTO competicion (nombre, genero_id, actor_id, director) VALUES ("' + params.nombre + '"';
-  //var query = "INSERT INTO competicion (nombre, genero_id, actor_id, director) VALUES ('" + params.nombre + "', NULL , NULL , NULL)";
   if (params.genero != 0) {
       query += ' , ' + params.genero;
   } else{
